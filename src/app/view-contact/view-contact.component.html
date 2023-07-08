@@ -1,0 +1,40 @@
+<div class="container mt-1">
+    <div class="row">
+        <div class="col">
+            <!-- Title -->
+            <h1 class="text-primary"><i class="fa-solid fa-eye me-2"></i>View Contact</h1>
+            <!-- content -->
+            <p class="mt-3" style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Nostrum nemo, ad veniam facilis temporibus et
+                dicta dolorem similique! Nisi et necessitatibus quam aliquid! Ducimus neque quod explicabo dolorem
+                dolore dolor?
+                Quis consequatur pariatur cum culpa fuga, vitae aperiam beatae omnis praesentium voluptate nisi cumque
+                vero non rerum fugiat autem consequuntur mollitia ut obcaecati unde temporibus? Non exercitationem
+                quibusdam recusandae voluptas!
+                Tempora, distinctio. Saepe officiis facere eum dolore harum alias sed adipisci, magnam perferendis totam
+                recusandae omnis voluptatem quis, sint cum error laboriosam? Iusto quaerat quia veritatis? Laborum error
+                quis beatae!
+                Aliquid vero assumenda asperiores corrupti numquam tempore nisi omnis quae reprehenderit voluptatibus
+                maxime provident doloribus architecto magni porro vel quam, adipisci deserunt, vitae distinctio,
+                consequuntur similique. Et perspiciatis repellat sit?
+                Porro ipsum at facilis quis tempora aperiam nobis officiis, eligendi velit vel fugiat. Officiis natus
+                minus, recusandae eveniet hic accusamus reprehenderit nisi et corporis vero, quos inventore odit ipsam
+                nobis?
+            </p>
+        </div>
+        <div class="row mt-5  justify-content-center">
+            <div class="card p-2 d-flex justify-content-center align-items-center" style="width: 18rem;  ">
+                <img class="contact_img" [src]="contact.photo"
+                    alt="Contact">
+
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bolder text-danger">{{contact.name}}</h5>
+                    <p class="card-text text-primary">Mobile: {{contact.mobile}}</p>
+                    <p class="card-text text-success">E mail: {{contact.email}}</p>
+                    <p class="card-text text-warning">Company: {{contact.company}}</p>
+                    <p class="card-text text-info">Title: {{contact.title}}</p>
+                    <p class="card-text text-secondary">Group: {{groupName}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
